@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Business Map</title>
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	
+
+</head>
+<body>
+<header class="header">
+			<div class="container d-flex align-items-center">
+				<img src="img/logo.png" alt="LOGO" class="logo">
+			</div>
+</header>	
+	<section id="first" class="first">
+		<div class="content">
+			<div class="container d-flex">
+				<div class="slider">
+					<div class="ellips"></div>
+					<div class="lines-dot"></div>
+					<div class="plus-yellow"></div>
+					<div class="map_lg" id="map_lg_click"></div>
+					<div class="plus-dots"></div>
+					<div class="triangles"></div>
+					<div class="line-wave"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="second" class="second">
+		<div class="content">
+			<div class="container d-flex">
+				<div class="offer d-flex justify-content-center align-items-center">
+					<div class="offer__body">
+						<h1 class="offer__title">
+							
+							<span class="offer__word">
+								<span>
+									Бизнес карта
+								</span>
+							</span>
+						</h1>
+						<div class="offer__btns d-flex">
+							<a href="#" class="offer__btn btn-round">
+								one
+							</a>
+							<a href="#" class="offer__btn btn-round">
+								two
+							</a>
+							<a href="#" class="offer__btn btn-round">
+								three
+							</a>
+						</div>
+						<div class="params" id="params">
+						
+						</div>
+						<a href="#" class="offer__cta btn" onclick="conn()">
+							Поиск
+						</a>
+						
+					</div>
+					
+				</div>
+				<div id="map" >
+				<script
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDx23WvDaQxddNO4Tkh_3XO6WjREK4a_MA&callback=initMap&libraries=&v=weekly"
+				
+				async> </script>
+
+				<!--<iframe class="maps" id="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  ></iframe><br/>-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/parallax-mouse.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/main_click.js"></script>
+
+	
+
+</body>
+</html>
