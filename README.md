@@ -15,5 +15,6 @@
  - ### [Parsers](https://github.com/itqop/msk_city_hack/tree/main/data_prep/Parsers "Parsers")- содержит парсеры для сервисов и обработанные данные по объявлениям ЦИАН
 ## [ranking_script](https://github.com/itqop/msk_city_hack/tree/main/ranking_script "ranking_script") - готовый модуль для обработки запросов с сервера
  > [modelcb.cbm](https://github.com/itqop/msk_city_hack/blob/main/ranking_script/modelcb.cbm "modelcb.cbm") - обученная модель catboost для ранжирования
+ 
  > [model.py](https://github.com/itqop/msk_city_hack/blob/main/ranking_script/model.py "model.py") - содержит функцию, принимающую вид деятельности и количество точек, возвращающую массив из точек с описаниями для карты
 
